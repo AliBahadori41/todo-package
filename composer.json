@@ -1,0 +1,29 @@
+{
+    "name": "alibahadori/todo",
+    "description": "This is todo package",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "laravel/sanctum": "^2.15"
+    },
+    "authors": [
+        {
+            "name": "AliBahadori41",
+            "email": "ali.bahadori41@yahoo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Alibahadori\\Todo\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Alibahadori\\Todo\\TodoServiceProvider"
+            ]
+            
+        }
+    }
+}
